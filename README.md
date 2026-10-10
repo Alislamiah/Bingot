@@ -47,7 +47,7 @@
 .layout{max-width:1440px;margin:auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:24px;padding:24px clamp(14px,3vw,34px) 45px}
 .sidebar{position:sticky;top:88px;align-self:start;background:#091326a8;border:1px solid #172641;border-radius:22px;padding:13px}
 .navbtn{width:100%;display:flex;align-items:center;gap:12px;text-align:start;color:#9cb0d0;background:transparent;border:0;border-radius:13px;padding:13px 14px;margin:2px 0;font-weight:650}
-.navbtn .ni{font-size:19px;width:23px;text-align:center}.navbtn.active,.navbtn:hover{background:linear-gradient(90deg,#183c70aa,#17234888);color:#fff}.navbtn.active{box-shadow:inset 3px 0 #4c91ff}
+.navbtn .ni{font-size:19px;width:23px;text-align:center}.ai-navbtn{background:linear-gradient(100deg,#153d73,#40216f)!important;color:#fff!important;border:1px solid #6b69ff55!important;box-shadow:0 0 18px #7657ff22}.ai-star{display:inline-grid;place-items:center;width:23px;font-size:19px;color:#f7d96a;text-shadow:0 0 12px #c88cff}.navbtn.active,.navbtn:hover{background:linear-gradient(90deg,#183c70aa,#17234888);color:#fff}.navbtn.active{box-shadow:inset 3px 0 #4c91ff}
 .side-sep{height:1px;background:#1b2b47;margin:12px 4px}
 .storage-mini{padding:14px 12px 8px}.storage-mini .line{height:7px;background:#1a2943;border-radius:20px;overflow:hidden;margin:10px 0}.storage-mini .line i{display:block;height:100%;width:0;background:linear-gradient(90deg,#347eff,#ad5cff);border-radius:20px}.storage-mini strong{font-size:14px}
 .content{min-width:0}.view{display:none}.view.active{display:block;animation:viewin .25s ease}@keyframes viewin{from{opacity:.45;transform:translateY(4px)}to{opacity:1;transform:none}}
@@ -91,6 +91,7 @@
   </div>
   <label class="searchbox"><span>⌕</span><input id="globalSearch" class="field" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="ابحث عن ملف أو مجلد..." aria-label="Search files"></label>
   <div class="top-actions">
+    <a class="icon-btn ai-top-btn" href="https://mohamedmadoui5195.github.io/Gemalot/" title="Gemalot AI" aria-label="Gemalot AI" style="display:grid;place-items:center;text-decoration:none;color:#ffe17b;border:1px solid #7859d6;background:linear-gradient(135deg,#183a71,#48216e);box-shadow:0 0 16px #8c5bff33">✦</a>
     <button class="icon-btn hide-mobile" id="uploadTop" title="Upload">↑</button>
     <button class="icon-btn" id="settingsTop" title="Settings">⚙</button>
     <button class="icon-btn" id="profileTop" title="Account">◉</button>
@@ -105,6 +106,7 @@
     <div class="side-sep"></div>
     <button class="navbtn" data-view="settings"><span class="ni">⚙</span><span data-i18n="settings">الإعدادات</span></button>
     <button class="navbtn" data-view="account"><span class="ni">◉</span><span data-i18n="account">الحساب</span></button>
+    <a class="navbtn ai-navbtn" href="https://mohamedmadoui5195.github.io/Gemalot/" style="text-decoration:none"><span class="ai-star">✦</span><span>نجمة الذكاء الاصطناعي · Gemalot</span></a>
     <div class="side-sep"></div>
     <div class="storage-mini"><div class="row"><strong data-i18n="storage">مساحة التخزين</strong><span class="grow"></span><span class="small muted" id="sidePct">0%</span></div><div class="line"><i id="sideBar"></i></div><div class="small muted"><span id="sideUsed">0 B</span> / <span id="sideTotal">100 MB</span></div></div>
   </aside>
@@ -170,6 +172,7 @@
   <button data-view="recent"><span>◷</span><b data-i18n="recent">الأخيرة</b></button>
   <button data-view="starred"><span>☆</span><b data-i18n="starred">المفضلة</b></button>
   <button data-view="settings"><span>⚙</span><b data-i18n="settings">الإعدادات</b></button>
+  <a href="https://mohamedmadoui5195.github.io/Gemalot/" aria-label="Gemalot AI" style="border:0;background:transparent;color:#f7d96a;display:grid;gap:3px;justify-items:center;text-decoration:none;font-size:10px;padding:5px 4px;min-width:0"><span style="font-size:21px;text-shadow:0 0 12px #a76cff">✦</span><b>Gemalot AI</b></a>
 </nav>
 </div>
 <input type="file" id="filePicker" multiple hidden>
