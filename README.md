@@ -91,7 +91,7 @@
   </div>
   <label class="searchbox"><span>⌕</span><input id="globalSearch" class="field" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="ابحث عن ملف أو مجلد..." aria-label="Search files"></label>
   <div class="top-actions">
-    <a class="icon-btn ai-top-btn" href="https://mohamedmadoui5195.github.io/Gemalot/" title="Gemalot AI" aria-label="Gemalot AI" style="display:grid;place-items:center;text-decoration:none;color:#ffe17b;border:1px solid #7859d6;background:linear-gradient(135deg,#183a71,#48216e);box-shadow:0 0 16px #8c5bff33">✦</a>
+    <a class="icon-btn ai-top-btn" href="https://Alislamiah.github.io/Gemalot/" title="Gemalot AI" aria-label="Gemalot AI" style="display:grid;place-items:center;text-decoration:none;color:#ffe17b;border:1px solid #7859d6;background:linear-gradient(135deg,#183a71,#48216e);box-shadow:0 0 16px #8c5bff33">✦</a>
     <button class="icon-btn hide-mobile" id="uploadTop" title="Upload">↑</button>
     <button class="icon-btn" id="settingsTop" title="Settings">⚙</button>
     <button class="icon-btn" id="profileTop" title="Account">◉</button>
