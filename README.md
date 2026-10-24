@@ -106,7 +106,7 @@
     <div class="side-sep"></div>
     <button class="navbtn" data-view="settings"><span class="ni">⚙</span><span data-i18n="settings">الإعدادات</span></button>
     <button class="navbtn" data-view="account"><span class="ni">◉</span><span data-i18n="account">الحساب</span></button>
-    <a class="navbtn ai-navbtn" href="https://mohamedmadoui5195.github.io/Gemalot/" style="text-decoration:none"><span class="ai-star">✦</span><span>نجمة الذكاء الاصطناعي · Gemalot</span></a>
+    <a class="navbtn ai-navbtn" href="https://Alislamiah.github.io/Gemalot/" style="text-decoration:none"><span class="ai-star">✦</span><span>نجمة الذكاء الاصطناعي · Gemalot</span></a>
     <div class="side-sep"></div>
     <div class="storage-mini"><div class="row"><strong data-i18n="storage">مساحة التخزين</strong><span class="grow"></span><span class="small muted" id="sidePct">0%</span></div><div class="line"><i id="sideBar"></i></div><div class="small muted"><span id="sideUsed">0 B</span> / <span id="sideTotal">100 MB</span></div></div>
   </aside>
@@ -172,7 +172,7 @@
   <button data-view="recent"><span>◷</span><b data-i18n="recent">الأخيرة</b></button>
   <button data-view="starred"><span>☆</span><b data-i18n="starred">المفضلة</b></button>
   <button data-view="settings"><span>⚙</span><b data-i18n="settings">الإعدادات</b></button>
-  <a href="https://mohamedmadoui5195.github.io/Gemalot/" aria-label="Gemalot AI" style="border:0;background:transparent;color:#f7d96a;display:grid;gap:3px;justify-items:center;text-decoration:none;font-size:10px;padding:5px 4px;min-width:0"><span style="font-size:21px;text-shadow:0 0 12px #a76cff">✦</span><b>Gemalot AI</b></a>
+  <a href="https://Alislamiah.github.io/Gemalot/" aria-label="Gemalot AI" style="border:0;background:transparent;color:#f7d96a;display:grid;gap:3px;justify-items:center;text-decoration:none;font-size:10px;padding:5px 4px;min-width:0"><span style="font-size:21px;text-shadow:0 0 12px #a76cff">✦</span><b>Gemalot AI</b></a>
 </nav>
 </div>
 <input type="file" id="filePicker" multiple hidden>
